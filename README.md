@@ -29,11 +29,10 @@ The indicators used include:
 
 ## Methodology
 
-1. **Data Cleaning** – Removed rows with missing values.  
-2. **Grouping** – Calculated mean values for each environmental indicator per diet group.  
-3. **Log Transformation** – Applied `log1p(x)` to reduce scale differences.  
-4. **Normalization** – Scaled all values between 0 and 1 using Min-Max normalization.  
-5. **Visualization** – Created a radar chart using Matplotlib to compare the environmental profile of each group.
+1. **Grouping** – Calculated mean values for each environmental indicator per diet group.  
+2. **Log Transformation** – Applied `log1p(x)` to reduce scale differences.  
+3. **Normalization** – Scaled all values between 0 and 1 using Min-Max normalization.  
+4. **Visualization** – Created a radar chart using Matplotlib to compare the environmental profile of each group.
 
 ## Key Findings
 
